@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muhammed Sinan VK | Portfolio</title>
+  <style>
+    :root {
+      --main-bg: linear-gradient(to right, #dbeafe, #f0fdfa);
+      --primary-color: #0f172a;
+      --accent-color: #0284c7;
+      --font-main: 'Segoe UI', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--main-bg);
+      font-family: var(--font-main);
+      color: var(--primary-color);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: var(--primary-color);
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      color: var(--accent-color);
+      margin-top: 0.2rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-top: 1rem;
+      padding: 0 1rem;
+    }
+
+    .contact {
+      margin-top: 2rem;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 0.4rem;
+      text-decoration: none;
+      color: white;
+      background: var(--accent-color);
+      padding: 0.6rem 1.2rem;
+      border-radius: 25px;
+      transition: background 0.3s ease;
+    }
+
+    .contact a:hover {
+      background: #0369a1;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      h2 {
+        font-size: 1rem;
+      }
+
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="sinan-photo.jpg" alt="Muhammed Sinan VK" class="profile-pic" />
+    <h1>Muhammed Sinan VK</h1>
+    <h2>Digital Marketer | Photoshop Specialist | Islamic Scholar</h2>
+    <p>
+      Working at <strong>Home Research Institute OXDU</strong>, Kondotty.<br />
+      Passionate about digital branding, content creation, and Islamic scholarship.
+    </p>
+
+    <div class="contact">
+      <a href="tel:+918590181381">📞 Call</a>
+      <a href="https://wa.me/918590181381" target="_blank">💬 WhatsApp</a>
+      <a href="https://www.instagram.com/story.available/profilecard/?igsh=Mzd6a3Q1azY5eHR0" target="_blank">📸 Instagram</a>
+    </div>
+
+    <footer>
+      &copy; 2025 Muhammed Sinan VK. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    // Optional: Add a greeting
+    document.addEventListener("DOMContentLoaded", function () {
+      const hours = new Date().getHours();
+      let greet = "Welcome!";
+      if (hours < 12) greet = "Good Morning ☀️";
+      else if (hours < 18) greet = "Good Afternoon 🌞";
+      else greet = "Good Evening 🌙";
+      document.title = greet + " | Muhammed Sinan VK";
+    });
+  </script>
+</body>
+                           </html>
